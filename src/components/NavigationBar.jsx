@@ -14,13 +14,18 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
-
+import logo from "../assets/logo.svg";
+import "./NavigationBar.css";
 const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
   },
   menuButton: {
     marginRight: theme.spacing(2),
+  },
+  logo: {
+    marginRight: theme.spacing(2),
+    height: "25px"
   },
   title: {
     display: 'none',
@@ -78,6 +83,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 }));
+const logostyle = ""
 
 export default function NavigationBar() {
   const classes = useStyles();
@@ -165,17 +171,18 @@ export default function NavigationBar() {
     <div className={classes.grow}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
             aria-label="open drawer"
           >
             <MenuIcon />
-          </IconButton>
-          <Typography className={classes.title} variant="h6" noWrap>
-            Material-UI
-          </Typography>
+          </IconButton> */}
+          <img className={classes.logo} src={logo} alt="First slide" />
+          {/* <Typography className={classes.title} variant="h6" noWrap>
+            Ananthu LB
+          </Typography> */}
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
