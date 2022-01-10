@@ -124,10 +124,10 @@ const AboutLayout = () => {
                                     <Typography variant="h5" component="h2">
                                         {/* be{bull}nev{bull}o{bull}lent */}
                                         About Myself
-        </Typography>
+                                    </Typography>
                                     <Typography className={classes.pos} color="textSecondary">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        </Typography>
+                                    </Typography>
                                     {/* <Typography variant="body2" component="p">
                                         well meaning and kindly.
           <br />
@@ -148,7 +148,7 @@ const AboutLayout = () => {
                                     <Typography variant="h5" component="h2">
                                         {/* be{bull}nev{bull}o{bull}lent */}
                                         My Skills
-        </Typography>
+                                    </Typography>
                                     {mySkills.map((skill) => (
                                         <Chip className={classes.chip}
                                             avatar={<Avatar alt="Natacha" src={skill.logo} />}
@@ -170,14 +170,14 @@ const AboutLayout = () => {
                                     <Typography variant="h5" component="h2">
                                         {/* be{bull}nev{bull}o{bull}lent */}
                                         Experience
-        </Typography>
+                                    </Typography>
 
                                     <div>
                                         <div class="row">
                                             <div class="col-4">
                                                 <Typography variant="body2" component="p">
                                                     Skillsme.
-          <br />
+                                                    <br />
                                                     {'Auckland'}
                                                     <br />
                                                     {'Nov 2020 – Present'}
@@ -193,7 +193,7 @@ const AboutLayout = () => {
                                                     •	Mentoring & Conducing weekly meeting with AUT student final year projects.
                                                     •	Technologies used :- Angular, Angular material, Typescript, Html, SCSS(webapp) , CSS(landing page)
 
-        </Typography>
+                                                </Typography>
                                             </div>
                                         </div>
 
@@ -201,7 +201,7 @@ const AboutLayout = () => {
                                             <div class="col-4">
                                                 <Typography variant="body2" component="p">
                                                     3E IT Solutions.
-          <br />
+                                                    <br />
                                                     {'India'}
                                                     <br />
                                                     {'July 2016 – Dec 2018'}
@@ -217,7 +217,7 @@ const AboutLayout = () => {
                                                     •	Involved in project scoping, database design, social media analytics and R&D projects.
                                                     •	Unit testing, Manual testing and bug fixing.
 
-        </Typography>
+                                                </Typography>
                                             </div>
                                         </div>
                                     </div>
@@ -233,10 +233,56 @@ const AboutLayout = () => {
                                     <Typography variant="h5" component="h2">
                                         {/* be{bull}nev{bull}o{bull}lent */}
                                         Education
-        </Typography>
-                                    <Typography className={classes.pos} color="textSecondary">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        </Typography>
+                                    </Typography>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <Typography variant="body2" component="p">
+                                                    Auckland university of technology.
+                                                    <br />
+                                                    {'Auckland'}
+                                                    <br />
+                                                    {'Nov 2020 – Present'}
+                                                </Typography>
+                                            </div>
+                                            <div class="col-8">
+                                                <Typography className={classes.pos} color="textSecondary">
+                                                    •	Coordinate website development, communicating with management team and development team to design, build and test Skillsme webapp.
+                                                    •	Participate in company strategic meeting to create plans for the next phase of the development.
+                                                    •	Debugging, optimisation and code reviews on old and new codes.
+                                                    •	Coordinate sprint planining and task allocation.
+                                                    •	Mentoring and support for Skillsme hackathons.
+                                                    •	Mentoring & Conducing weekly meeting with AUT student final year projects.
+                                                    •	Technologies used :- Angular, Angular material, Typescript, Html, SCSS(webapp) , CSS(landing page)
+
+                                                </Typography>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <Typography variant="body2" component="p">
+                                                    3E IT Solutions.
+                                                    <br />
+                                                    {'India'}
+                                                    <br />
+                                                    {'July 2016 – Dec 2018'}
+                                                </Typography>
+                                            </div>
+                                            <div class="col-8">
+                                                <Typography className={classes.pos} color="textSecondary">
+                                                    •	Involved in development of 6+ commercial projects including web and hybrid apps.
+                                                    •	Directly responsible for managing and leading two web projects.
+                                                    •	Frontend development using AngularJS, HTML, CSS and ionic.
+                                                    •	Backend development using Node.js, Express.js, loopback, PostgreSQL, MySQL, MongoDB and AWS lambda service.
+                                                    •	Worked with numerous social media Api’s and payment gateway Api’s(Mastercard, stripe).
+                                                    •	Involved in project scoping, database design, social media analytics and R&D projects.
+                                                    •	Unit testing, Manual testing and bug fixing.
+
+                                                </Typography>
+                                            </div>
+                                        </div>
+                                    </div>
                                     {/* <Typography variant="body2" component="p">
                                         well meaning and kindly.
           <br />
