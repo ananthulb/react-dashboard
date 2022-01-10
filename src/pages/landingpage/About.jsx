@@ -240,20 +240,24 @@ const AboutLayout = () => {
                                                 <Typography variant="body2" component="p">
                                                     Auckland university of technology.
                                                     <br />
-                                                    {'Auckland'}
+                                                    Masters in Computer and information sciences
                                                     <br />
-                                                    {'Nov 2020 – Present'}
+                                                    {'Feb 2019 – Aug 2020'}
                                                 </Typography>
                                             </div>
                                             <div class="col-8">
                                                 <Typography className={classes.pos} color="textSecondary">
-                                                    •	Coordinate website development, communicating with management team and development team to design, build and test Skillsme webapp.
-                                                    •	Participate in company strategic meeting to create plans for the next phase of the development.
-                                                    •	Debugging, optimisation and code reviews on old and new codes.
-                                                    •	Coordinate sprint planining and task allocation.
-                                                    •	Mentoring and support for Skillsme hackathons.
-                                                    •	Mentoring & Conducing weekly meeting with AUT student final year projects.
-                                                    •	Technologies used :- Angular, Angular material, Typescript, Html, SCSS(webapp) , CSS(landing page)
+                                                    <ul>
+                                                        <li>
+                                                            Developed spreadsheet image detection and conversion system using python and opencv as part of research method paper.
+                                                        </li>
+                                                        <li>
+                                                            Proposed a copyright prevention for digital images (NFT) using blockchain.
+                                                        </li>
+                                                        <li>
+                                                            Masters project: "Skin Lesion Classification using Deep Learning and Effects of Entropy based Depth Estimation"
+                                                        </li>
+                                                    </ul>
 
                                                 </Typography>
                                             </div>
@@ -262,23 +266,23 @@ const AboutLayout = () => {
                                         <div class="row">
                                             <div class="col-4">
                                                 <Typography variant="body2" component="p">
-                                                    3E IT Solutions.
+                                                    Mar Baselios College of Engineering & Technology
                                                     <br />
-                                                    {'India'}
+                                                    Bachelor of Technology
                                                     <br />
-                                                    {'July 2016 – Dec 2018'}
+                                                    {'Jan 2011 – Jan 2015'}
                                                 </Typography>
                                             </div>
                                             <div class="col-8">
                                                 <Typography className={classes.pos} color="textSecondary">
-                                                    •	Involved in development of 6+ commercial projects including web and hybrid apps.
-                                                    •	Directly responsible for managing and leading two web projects.
-                                                    •	Frontend development using AngularJS, HTML, CSS and ionic.
-                                                    •	Backend development using Node.js, Express.js, loopback, PostgreSQL, MySQL, MongoDB and AWS lambda service.
-                                                    •	Worked with numerous social media Api’s and payment gateway Api’s(Mastercard, stripe).
-                                                    •	Involved in project scoping, database design, social media analytics and R&D projects.
-                                                    •	Unit testing, Manual testing and bug fixing.
-
+                                                    <ul>
+                                                        <li>
+                                                            Major : Information Technology
+                                                        </li>
+                                                        <li>
+                                                            Final Project : Vehicle tracking and immobilization system using mobile app.
+                                                        </li>
+                                                    </ul>
                                                 </Typography>
                                             </div>
                                         </div>
