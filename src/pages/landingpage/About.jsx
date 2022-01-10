@@ -185,14 +185,29 @@ const AboutLayout = () => {
                                             </div>
                                             <div class="col-8">
                                                 <Typography className={classes.pos} color="textSecondary">
-                                                    •	Coordinate website development, communicating with management team and development team to design, build and test Skillsme webapp.
-                                                    •	Participate in company strategic meeting to create plans for the next phase of the development.
-                                                    •	Debugging, optimisation and code reviews on old and new codes.
-                                                    •	Coordinate sprint planining and task allocation.
-                                                    •	Mentoring and support for Skillsme hackathons.
-                                                    •	Mentoring & Conducing weekly meeting with AUT student final year projects.
-                                                    •	Technologies used :- Angular, Angular material, Typescript, Html, SCSS(webapp) , CSS(landing page)
-
+                                                    <ul>
+                                                        <li>
+                                                            Coordinate website development, communicating with management team and development team to design, build and test Skillsme webapp.
+                                                        </li>
+                                                        <li>
+                                                            Participate in company strategic meeting to create plans for the next phase of the development.
+                                                        </li>
+                                                        <li>
+                                                            Debugging, optimisation and code reviews on old and new codes.
+                                                        </li>
+                                                        <li>
+                                                            Coordinate sprint planining and task allocation.
+                                                        </li>
+                                                        <li>
+                                                            Mentoring and support for Skillsme hackathons.
+                                                        </li>
+                                                        <li>
+                                                            Mentoring & Conducing weekly meeting with AUT student final year projects.
+                                                        </li>
+                                                        <li>
+                                                            Technologies used :- Angular, Angular material, Typescript, Html, SCSS(webapp) , CSS(landing page)
+                                                        </li>
+                                                    </ul>
                                                 </Typography>
                                             </div>
                                         </div>
@@ -209,14 +224,29 @@ const AboutLayout = () => {
                                             </div>
                                             <div class="col-8">
                                                 <Typography className={classes.pos} color="textSecondary">
-                                                    •	Involved in development of 6+ commercial projects including web and hybrid apps.
-                                                    •	Directly responsible for managing and leading two web projects.
-                                                    •	Frontend development using AngularJS, HTML, CSS and ionic.
-                                                    •	Backend development using Node.js, Express.js, loopback, PostgreSQL, MySQL, MongoDB and AWS lambda service.
-                                                    •	Worked with numerous social media Api’s and payment gateway Api’s(Mastercard, stripe).
-                                                    •	Involved in project scoping, database design, social media analytics and R&D projects.
-                                                    •	Unit testing, Manual testing and bug fixing.
-
+                                                    <ul>
+                                                        <li>
+                                                            Involved in development of 6+ commercial projects including web and hybrid apps.
+                                                        </li>
+                                                        <li>
+                                                            Directly responsible for managing and leading two web projects.
+                                                        </li>
+                                                        <li>
+                                                            Frontend development using AngularJS, HTML, CSS and ionic.
+                                                        </li>
+                                                        <li>
+                                                            Backend development using Node.js, Express.js, loopback, PostgreSQL, MySQL, MongoDB and AWS lambda service.
+                                                        </li>
+                                                        <li>
+                                                            Worked with numerous social media Api’s and payment gateway Api’s(Mastercard, stripe).
+                                                        </li>
+                                                        <li>
+                                                            Involved in project scoping, database design, social media analytics and R&D projects.
+                                                        </li>
+                                                        <li>
+                                                            Unit testing, Manual testing and bug fixing.
+                                                        </li>
+                                                    </ul>
                                                 </Typography>
                                             </div>
                                         </div>
