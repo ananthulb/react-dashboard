@@ -173,7 +173,7 @@ const AboutLayout = () => {
                                     </Typography>
 
                                     <div>
-                                        <div class="row">
+                                        <div class="row mt-2">
                                             <div class="col-4">
                                                 <Typography variant="body2" component="p">
                                                     Skillsme.
@@ -212,7 +212,7 @@ const AboutLayout = () => {
                                             </div>
                                         </div>
 
-                                        <div class="row">
+                                        <div class="row mt-2">
                                             <div class="col-4">
                                                 <Typography variant="body2" component="p">
                                                     3E IT Solutions.
@@ -265,7 +265,7 @@ const AboutLayout = () => {
                                         Education
                                     </Typography>
                                     <div>
-                                        <div class="row">
+                                        <div class="row mt-2">
                                             <div class="col-4">
                                                 <Typography variant="body2" component="p">
                                                     Auckland university of technology.
@@ -293,7 +293,7 @@ const AboutLayout = () => {
                                             </div>
                                         </div>
 
-                                        <div class="row">
+                                        <div class="row mt-2">
                                             <div class="col-4">
                                                 <Typography variant="body2" component="p">
                                                     Mar Baselios College of Engineering & Technology
