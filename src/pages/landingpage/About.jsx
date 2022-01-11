@@ -174,160 +174,18 @@ const AboutLayout = () => {
 
                                     <div>
                                         <div class="row mt-2">
-                                            <div class="col-4">
-                                                <Typography variant="body2" component="p">
-                                                    Skillsme.
-                                                    <br />
-                                                    {'Auckland'}
-                                                    <br />
-                                                    {'Nov 2020 – Present'}
-                                                </Typography>
-                                            </div>
-                                            <div class="col-8">
-                                                <Typography className={classes.pos} color="textSecondary">
-                                                    <ul>
-                                                        <li>
-                                                            Coordinate website development, communicating with management team and development team to design, build and test Skillsme webapp.
-                                                        </li>
-                                                        <li>
-                                                            Participate in company strategic meeting to create plans for the next phase of the development.
-                                                        </li>
-                                                        <li>
-                                                            Debugging, optimisation and code reviews on old and new codes.
-                                                        </li>
-                                                        <li>
-                                                            Coordinate sprint planining and task allocation.
-                                                        </li>
-                                                        <li>
-                                                            Mentoring and support for Skillsme hackathons.
-                                                        </li>
-                                                        <li>
-                                                            Mentoring & Conducing weekly meeting with AUT student final year projects.
-                                                        </li>
-                                                        <li>
-                                                            Technologies used :- Angular, Angular material, Typescript, Html, SCSS(webapp) , CSS(landing page)
-                                                        </li>
-                                                    </ul>
-                                                </Typography>
-                                            </div>
+
                                         </div>
 
                                         <div class="row mt-2">
-                                            <div class="col-4">
-                                                <Typography variant="body2" component="p">
-                                                    3E IT Solutions.
-                                                    <br />
-                                                    {'India'}
-                                                    <br />
-                                                    {'July 2016 – Dec 2018'}
-                                                </Typography>
-                                            </div>
-                                            <div class="col-8">
-                                                <Typography className={classes.pos} color="textSecondary">
-                                                    <ul>
-                                                        <li>
-                                                            Involved in development of 6+ commercial projects including web and hybrid apps.
-                                                        </li>
-                                                        <li>
-                                                            Directly responsible for managing and leading two web projects.
-                                                        </li>
-                                                        <li>
-                                                            Frontend development using AngularJS, HTML, CSS and ionic.
-                                                        </li>
-                                                        <li>
-                                                            Backend development using Node.js, Express.js, loopback, PostgreSQL, MySQL, MongoDB and AWS lambda service.
-                                                        </li>
-                                                        <li>
-                                                            Worked with numerous social media Api’s and payment gateway Api’s(Mastercard, stripe).
-                                                        </li>
-                                                        <li>
-                                                            Involved in project scoping, database design, social media analytics and R&D projects.
-                                                        </li>
-                                                        <li>
-                                                            Unit testing, Manual testing and bug fixing.
-                                                        </li>
-                                                    </ul>
-                                                </Typography>
-                                            </div>
+
+
                                         </div>
                                     </div>
                                 </CardContent>
                             </Card>
                         </div>
-                        <div className={indiBox}>
-                            <Card className={classes.root} variant="outlined">
-                                <CardContent>
-                                    {/* <Typography className={classes.title} color="textSecondary" gutterBottom>
-                                        About Myself
-        </Typography> */}
-                                    <Typography variant="h5" component="h2">
-                                        {/* be{bull}nev{bull}o{bull}lent */}
-                                        Education
-                                    </Typography>
-                                    <div>
-                                        <div class="row mt-2">
-                                            <div class="col-4">
-                                                <Typography variant="body2" component="p">
-                                                    Auckland university of technology.
-                                                    <br />
-                                                    Masters in Computer and information sciences
-                                                    <br />
-                                                    {'Feb 2019 – Aug 2020'}
-                                                </Typography>
-                                            </div>
-                                            <div class="col-8">
-                                                <Typography className={classes.pos} color="textSecondary">
-                                                    <ul>
-                                                        <li>
-                                                            Developed spreadsheet image detection and conversion system using python and opencv as part of research method paper.
-                                                        </li>
-                                                        <li>
-                                                            Proposed a copyright prevention for digital images (NFT) using blockchain.
-                                                        </li>
-                                                        <li>
-                                                            Masters project: "Skin Lesion Classification using Deep Learning and Effects of Entropy based Depth Estimation"
-                                                        </li>
-                                                    </ul>
 
-                                                </Typography>
-                                            </div>
-                                        </div>
-
-                                        <div class="row mt-2">
-                                            <div class="col-4">
-                                                <Typography variant="body2" component="p">
-                                                    Mar Baselios College of Engineering & Technology
-                                                    <br />
-                                                    Bachelor of Technology
-                                                    <br />
-                                                    {'Jan 2011 – Jan 2015'}
-                                                </Typography>
-                                            </div>
-                                            <div class="col-8">
-                                                <Typography className={classes.pos} color="textSecondary">
-                                                    <ul>
-                                                        <li>
-                                                            Major : Information Technology
-                                                        </li>
-                                                        <li>
-                                                            Final Project : Vehicle tracking and immobilization system using mobile app.
-                                                        </li>
-                                                    </ul>
-                                                </Typography>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* <Typography variant="body2" component="p">
-                                        well meaning and kindly.
-          <br />
-                                        {'"a benevolent smile"'}
-                                    </Typography> */}
-                                </CardContent>
-                                {/* <CardActions>
-                                    <Button size="small">Learn More</Button>
-                                </CardActions> */}
-                            </Card>
-                        </div>
                     </div>
                 </div>
                 <div className="col-4">

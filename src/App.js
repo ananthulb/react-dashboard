@@ -11,7 +11,7 @@ function App() {
   return (
     <Fragment>
       <Router>
-        <NavigationBar />
+        {/* <NavigationBar /> */}
         <Container>
           <Switch>
             <Route path="/cards">

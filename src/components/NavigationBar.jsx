@@ -170,7 +170,7 @@ export default function NavigationBar() {
   return (
     <div className={classes.grow}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar className="bg-black">
           {/* <IconButton
             edge="start"
             className={classes.menuButton}
